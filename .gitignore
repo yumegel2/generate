@@ -1,0 +1,9 @@
+# Ignore Android build and IDE files
+/build/
+/.gradle/
+/local.properties
+/.idea/
+.DS_Store
+*.iml
+/captures/
+output.json

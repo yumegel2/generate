@@ -1,0 +1,28 @@
+// Top-level build.gradle for your Android project
+// Place this in the root of your project (not the app/ directory)
+
+buildscript {
+    ext {
+        compose_version = '1.5.4'
+        kotlin_version = '1.9.23'
+        room_version = '2.6.1'
+        retrofit_version = '2.9.0'
+        lifecycle_version = '2.7.0'
+        material3_version = '1.2.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.3.2"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
